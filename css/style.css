@@ -1156,12 +1156,16 @@ button:hover::after,
   }
 
   .hero {
-    height: 80vh;
+    min-height: 70vh;
     text-align: center;
   }
 
-  .hero h1 {
-    font-size: 2rem;
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero .cta-button {
+    margin: 0 auto;
   }
 
   .about {
@@ -1169,29 +1173,22 @@ button:hover::after,
     text-align: center;
   }
 
+  .about-stats {
+    justify-content: center;
+  }
+
   .program-cards {
     grid-template-columns: 1fr;
   }
 
-  .instructor-track {
-    gap: 1rem;
-  }
-
-  .instructor-card {
-    flex: 0 0 100%;
-    max-width: 100%;
-    border: 2px solid var(--color-accent1);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  }
-
-  .carousel-btn {
-    display: none;
+  .contact-links {
+    grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 480px) {
   .hero h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   .cta-button {
