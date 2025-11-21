@@ -124,17 +124,23 @@ window.addEventListener('keydown', e => {
 // Hamburger menü
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
+const navActions = document.querySelector('.nav-actions');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
-  navLinks.classList.toggle('active');
+  const isOpen = hamburger.classList.contains('active');
+  hamburger.setAttribute('aria-expanded', isOpen);
+  navLinks.classList.toggle('active', isOpen);
+  navActions?.classList.toggle('active', isOpen);
 });
 
 // Menüden bağlantı seçildiğinde menüyü kapat
 navLinks.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => {
     hamburger.classList.remove('active');
+    hamburger.setAttribute('aria-expanded', 'false');
     navLinks.classList.remove('active');
+    navActions?.classList.remove('active');
   });
 });
 
