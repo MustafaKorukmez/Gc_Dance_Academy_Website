@@ -145,7 +145,7 @@ navLinks.querySelectorAll('a').forEach(link => {
 });
 
 // Galeri görselleri için modal
-const galleryImages = document.querySelectorAll('.gallery-grid img');
+const galleryImages = document.querySelectorAll('.gallery-feature img, .mosaic-item img');
 const imageModal = document.getElementById('image-modal');
 const modalImg = document.getElementById('modal-img');
 const modalClose = imageModal.querySelector('.close');
