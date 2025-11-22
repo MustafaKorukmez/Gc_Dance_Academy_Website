@@ -872,7 +872,7 @@ button:hover::after,
 
 @media (max-width: 600px) {
   .section-card {
-    padding: 1.25rem;
+    padding: 1rem;
   }
 
   .program-rail {
@@ -1451,33 +1451,7 @@ button:hover::after,
   }
 
   .hero {
-    min-height: 70vh;
-    text-align: center;
-  }
-
-  .hero-content {
-    text-align: center;
-  }
-
-  .hero .cta-button {
-    margin: 0 auto;
-  }
-
-  .about {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-stats {
-    justify-content: center;
-  }
-
-  .program-cards {
-    grid-template-columns: 1fr;
-  }
-
-  .contact-links {
-    grid-template-columns: 1fr;
+    padding: 5rem 0 3rem;
   }
 
   .hero-grid {
@@ -1492,17 +1466,43 @@ button:hover::after,
     flex-direction: column;
   }
 
+  .hero-copy {
+    text-align: center;
+  }
+
   .hero-media {
     order: -1;
+  }
+
+  .about-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about-stats {
+    justify-content: center;
+  }
+
+  .program-rail {
+    flex-direction: column;
+    overflow: visible;
+  }
+
+  .program-card {
+    min-width: 100%;
+  }
+
+  .contact-links {
+    grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 480px) {
-  .hero h1 {
+  .hero-copy h1 {
     font-size: 1.8rem;
   }
 
-  .cta-button {
+  .hero-btn {
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
   }
