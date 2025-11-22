@@ -51,70 +51,154 @@
 
   <!-- Hero Section -->
   <header id="hero" class="hero">
-    <!-- Arka plan videosu -->
-    <video class="hero-video" autoplay muted loop playsinline poster="images/hero.jpg">
-      <source src="images/hero.mp4" type="video/mp4" />
-      Tarayıcınız video etiketini desteklemiyor.
-    </video>
-    <div class="hero-content container">
-      <h1>BORN to DANCE</h1>
-      <a href="tel:05441484242" class="cta-button">HEMEN KATIL</a>
+    <div class="hero-grid container">
+      <div class="hero-copy">
+        <p class="hero-tag">TÜRKİYE'nin ilk ve tek çocuklara özel dans okulu</p>
+        <h1>Çocukların ritmini sahneye taşıyoruz</h1>
+        <p class="hero-desc">Ataşehir ve Kurtköy kampüslerimizde, lisanslı eğitmenlerimizle hip-hop’tan modern dansa kadar uzanan yaratıcı bir dünya hazırladık.</p>
+        <div class="hero-cta">
+          <a href="tel:05441484242" class="hero-btn hero-primary"><i class="fas fa-phone"></i> Hemen Ara</a>
+          <a href="https://apps.apple.com/tr/app/gc-dance-academy/id6740095651?l=tr" class="hero-btn hero-secondary" target="_blank" rel="noopener"><i class="fab fa-apple"></i> Uygulamayı Aç</a>
+        </div>
+        <div class="hero-meta">
+          <div>
+            <span>2</span>
+            <p>Kampüs</p>
+          </div>
+          <div>
+            <span>10+</span>
+            <p>Branş</p>
+          </div>
+          <div>
+            <span>1000+</span>
+            <p>Öğrenci</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-media">
+        <div class="hero-video-card">
+          <video autoplay muted loop playsinline poster="images/hero.jpg">
+            <source src="images/video/video_1.mov" type="video/mp4" />
+            Tarayıcınız video etiketini desteklemiyor.
+          </video>
+          <div class="hero-video-badge">
+            <p>Günlük Kampüs Vibes</p>
+            <span>Kurtköy stüdyolarından canlı kesit</span>
+          </div>
+        </div>
+        <div class="hero-schedule">
+          <h4>Bugünün Akışı</h4>
+          <ul>
+            <li>
+              <span>16:00</span>
+              <p>Mini Hip-Hop Kombo</p>
+            </li>
+            <li>
+              <span>17:30</span>
+              <p>Modern Dans Atölyesi</p>
+            </li>
+            <li>
+              <span>19:00</span>
+              <p>Showcase Prova</p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </header>
 
   <!-- About Section -->
-  <section id="about" class="about section container">
-    <div class="about-text">
-      <h2>Hakkımızda</h2>
-      <p>GC Dance Academy, <strong>TÜRKİYE'nin ilk ve tek çocuklara özel dans okulu</strong> olmanın gururunu taşıyor. Ataşehir ve Kurtköy kampüslerimizde çocukların enerjisini dansla buluşturuyor, profesyonel eğitmenlerle güvenli ve ilham verici stüdyolar sunuyoruz.</p>
-      <div class="about-badge">
-        <p class="badge-title">T.C. Gençlik ve Spor Bakanlığı</p>
-        <p>Resmi Özel Dans Okulu lisanslı kurum olarak çocukların gelişimini destekleyen standartlarda eğitim veriyoruz.</p>
-      </div>
-      <ul class="about-highlights">
-        <li>4‑12 yaş arası öğrencilere özel programlar</li>
-        <li>Ataşehir &amp; Kurtköy kampüslerinde modern stüdyolar</li>
-        <li>Performans, teknik ve yaratıcılığı kapsayan müfredat</li>
-      </ul>
-      <div class="about-stats">
-        <div>
-          <span>2</span>
-          <p>Kampüs</p>
-        </div>
-        <div>
-          <span>1000+</span>
-          <p>Mutlu öğrenci</p>
-        </div>
-        <div>
-          <span>%100</span>
-          <p>Çocuk odaklı yaklaşım</p>
+  <section id="about" class="section container">
+    <div class="section-card about-card">
+      <div class="about-media">
+        <img src="images/about.jpg" alt="GC Dance Studio" loading="lazy" />
+        <div class="about-media-pill">
+          <p>Kampüslerimizde günlük ritim</p>
+          <span>Çocuklara özel stüdyo alanları</span>
         </div>
       </div>
-    </div>
-    <div class="about-img">
-      <img src="images/about.jpg" alt="GC Dance Studio" />
+      <div class="about-content">
+        <p class="eyebrow accent">Hakkımızda</p>
+        <h2>Çocukların hayalini dansla büyütüyoruz</h2>
+        <p>GC Dance Academy, <strong>TÜRKİYE'nin ilk ve tek çocuklara özel dans okulu</strong>. Ataşehir ve Kurtköy kampüslerimizde disiplinli eğitimle eğlenceli atmosferi buluşturuyor, T.C. Gençlik ve Spor Bakanlığı lisansı ile güvenli bir ortam sunuyoruz.</p>
+        <div class="about-pill-row">
+          <span>4‑12 yaş odaklı</span>
+          <span>Pedagojik yaklaşım</span>
+          <span>Showcase odaklı müfredat</span>
+        </div>
+        <div class="about-stats">
+          <div>
+            <span>2</span>
+            <p>Kampüs</p>
+          </div>
+          <div>
+            <span>1000+</span>
+            <p>Mutlu öğrenci</p>
+          </div>
+          <div>
+            <span>95%</span>
+            <p>Veli memnuniyeti</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Programs Section -->
-  <section id="programs" class="programs section container">
-    <h2>Programlar</h2>
-    <div class="program-cards">
-      <div class="card">
-        <i class="fas fa-music"></i>
-        <h3>Hip-Hop</h3>
-        <p>Sokak ritmini yakala, özgün koreografilerle sahne senin!</p>
+  <section id="programs" class="section container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow accent">Programlar</p>
+        <h2>Branşlara özel yaratıcı koreografiler</h2>
+        <p>Her seviyeye uygun grup ve bireysel derslerimizle çocukların ritmini ve esnekliğini geliştiriyoruz.</p>
       </div>
-      <div class="card">
-        <i class="fas fa-fire"></i>
-        <h3>Salsa</h3>
-        <p>Latin tutkusunu partnerinle paylaş!</p>
-      </div>
-      <div class="card">
-        <i class="fas fa-wave-square"></i>
-        <h3>Modern Dans</h3>
-        <p>Çağdaş adımlarla duygunu ifade et.</p>
-      </div>
+      <div class="section-pill">Hafta içi &amp; hafta sonu kamp programları</div>
+    </div>
+    <div class="program-rail">
+      <article class="program-card">
+        <div class="program-icon">
+          <i class="fas fa-music"></i>
+        </div>
+        <h3>Hip-Hop Labs</h3>
+        <p>Freestyle, groove ve battle hazırlıklarıyla güvenli bir sahne deneyimi.</p>
+        <ul>
+          <li>Kombo ve koreografi dersleri</li>
+          <li>Performans kampları</li>
+        </ul>
+      </article>
+      <article class="program-card">
+        <div class="program-icon">
+          <i class="fas fa-fire"></i>
+        </div>
+        <h3>Latin Waves</h3>
+        <p>Salsa ve bachata temel adımlarıyla ritim duygusunu keskinleştirir.</p>
+        <ul>
+          <li>Partner koordinasyon çalışmaları</li>
+          <li>Mini showcase etkinlikleri</li>
+        </ul>
+      </article>
+      <article class="program-card">
+        <div class="program-icon">
+          <i class="fas fa-wave-square"></i>
+        </div>
+        <h3>Modern Flow</h3>
+        <p>Çağdaş dans teknikleriyle ifade gücünü ve esnekliği artırır.</p>
+        <ul>
+          <li>Mindfulness &amp; hareket terapisi</li>
+          <li>Yaratıcı koreografi atölyeleri</li>
+        </ul>
+      </article>
+      <article class="program-card">
+        <div class="program-icon">
+          <i class="fas fa-sun"></i>
+        </div>
+        <h3>Kampüs Kampı</h3>
+        <p>Okul sonrası programlar ve yoğunlaştırılmış kamp haftaları.</p>
+        <ul>
+          <li>7/24 veli iletişim paneli</li>
+          <li>Ders planı uygulamada</li>
+        </ul>
+      </article>
     </div>
   </section>
 
