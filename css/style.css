@@ -545,19 +545,20 @@ button:hover::after,
   display: flex;
   flex-direction: column;
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
-  min-width: 280px;
+  min-width: 0px;
+  height: 1000px;
   flex: 0 0 auto;
   scroll-snap-align: start;
 }
 
 .mentor-img {
   position: relative;
-  height: 250px;
+  height: 750px;
   overflow: hidden;
 }
 
 .mentor-img img {
-  width: 100%;
+  width: 60ß%;
   height: 100%;
   object-fit: cover;
   display: block;
@@ -633,7 +634,7 @@ button:hover::after,
   }
 
   .mentor-card {
-    min-width: 240px;
+    min-width: 40px;
   }
 
   .mentor-img {
